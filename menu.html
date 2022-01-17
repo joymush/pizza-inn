@@ -126,6 +126,58 @@
                   </div>
                 </div>
             </div>
-            <!
+            <!-- THE MONEY $ $ $ -->
+            <div class="grid-child bill-container">
+        
+            </div>
+          </div>
+          <div class="bill-extras">
+              <span>Quantity</span>
+              <select name="quantity" id="quantity" onclick="updateBill()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              
+              <br>
+            </div>
+            <br>
+          <div class="cheeselabel">
+          <label for="extra-cheese" class="cheese" title="ksh15">Extra Cheese
+              <input type="checkbox" name="extra-cheese" id="extra-cheese" onclick="updateBill()">
+              <span class="checkmark" title="ksh15"></span>
+          </label>
+        </div>
+          <div class="bill">
+            <ul class="bill-list">
+              <li>
+                <span class="bill-label">Total:</span>
+                <span class="bill-value" id="total-cost">ksh34</span>
+              </li>
+              <li>
+                <span class="bill-label">Extra Toppings:</span>
+                <span class="bill-value" id="toppings-cost">ksh0</span>
+              </li>
+              <li>
+                <span class="bill-label">Extra Cheese:</span>
+                <span class="bill-value" id="cheese-cost">ksh0</span>
+              </li>
+              <li>
+                <span class="bill-label">VAT:</span>
+                <span class="bill-value" id="gst-cost">ksh0</span>
+              </li>
+              <li id="grand-total">
+                <span class="bill-label">Grand Total:</span>
+                <span class="bill-value" id="grand-cost">ksh34</span>
+              </li>
+            </ul>
+          </div>
+          <div id="buy-now" onclick="fb()">
+              <a><span>Buy Now</span></a>
+          </div>
+          <br>
+          <br>
 </body>
 </html>

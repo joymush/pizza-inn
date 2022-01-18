@@ -1,0 +1,648 @@
+.logo{
+    height: 220px;
+    width: 220px;
+  }
+  .imgl{
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+  }
+  .ull li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  body{
+    background-image: url(../images/pattern2.jpeg);
+    background-size: 100%;
+  }
+  .neck{
+    background-image: url(../images/gallery1.jpg);
+    height:600px;
+    background-size: cover;
+    margin-top: 15px;
+  }
+  .neckpizza{
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+  }
+  .intro{
+    width: 800px;
+    height: 400px;
+    margin-left: 40px;
+    padding: 20px;
+  }
+  .intro p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    color: burlywood;
+    border-radius: 15px;
+  }
+  .intro h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    color: burlywood;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .menushoulder{
+    background-image: url(../images/bg_home.jpg);
+    height: 400px;
+    background-size: 100%;
+    margin-top: 20px;
+  }
+  .menushoulder h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(211, 130, 24);
+    border-radius: 15px;
+    text-align: center;
+  }
+  .mm{
+    padding: 180px;
+  }
+  .menu{
+    width: 1200px;
+    padding: 40px;
+  
+  }
+  
+  
+  .logo{
+    height: 60px;
+    width: 60px;
+  }
+  .imgl{
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+  }
+  .ull li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  body{
+    background-image: url(../images/pattern2.jpeg);
+    background-size: 100%;
+  }
+  .neck{
+    background-image: url(../images/gallery1.jpg);
+    height:600px;
+    background-size: cover;
+    margin-top: 15px;
+  }
+  .neckpizza{
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+  }
+  .intro{
+    width: 800px;
+    height: 400px;
+    margin-left: 40px;
+    padding: 20px;
+  }
+  .intro p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    color: burlywood;
+    border-radius: 15px;
+  }
+  .intro h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    color: burlywood;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .menushoulder{
+    background-image: url(../images/bg_home.jpg);
+    height: 400px;
+    background-size: 100%%;
+    margin-top: 20px;
+  }
+  .menushoulder h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(211, 130, 24);
+    border-radius: 15px;
+    text-align: center;
+  }
+  .mm{
+    padding: 180px;
+  }
+  .menu{
+    width: 1200px;
+    padding: 40px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Jua');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #FFFCF0;
+    background-image: url(images/background.png);
+    background-attachment: fixed;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  header {
+    height: 100px;
+    width: 100%;
+    font-family: 'Permanent Marker', sans-serif;
+    text-align: center;
+    font-size: 3.4rem;
+    color: #0d89db;
+  }
+  
+  #logo-img {
+    width: 45px;
+    transform: translateY(5px)
+  }
+  
+  /* GRIDDING */
+  
+  .grid-container {
+    font-family: 'Jua', Bahnschrift, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
+  }
+  
+  .pizza-container {
+    grid-row: span 4;
+  }
+  
+  .bill-container {
+    grid-row: span 2;
+  }
+  
+  .toppings-container, .crust-container {
+    grid-row: span 3;
+  }
+  
+  /* TOPPINGS AND CRUSTS */
+  
+  
+  .toppings-container, .crust-container {
+    
+    margin-left :150px;
+    width: 360px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    background-image: url(../images/images.jpeg);
+    background-size: cover; 
+  }
+  
+  .toppings-head, .crust-head {
+    background: #e6c408e7;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .toppings-genres {
+    text-align: center;
+    display: flex;
+  }
+  
+  .toppings-genre {
+    width: 50%;
+    padding: 5px;
+    background: rgba(228, 169, 9, 0.87);
+    cursor: pointer;
+  }
+  
+  .toppings-genre:hover {
+    background: rgb(219, 164, 11);
+  }
+  
+  .toppings-genre.active {
+    background: #dd7c0de0;
+    color: rgb(233, 10, 10)
+  }
+  
+  .toppings-body {
+    position: relative;
+    height: calc(100% - 790px);
+  }
+  
+  .toppings-body-non, .toppings-body-veg {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+  }
+  
+  .toppings-body>.active-genre {
+    display: block;
+  }
+  
+  .topping {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .topping img {
+    width: 40px;
+  }
+  
+  .topping {
+    margin-left: 5px;
+  }
+  
+  .crust {
+    margin-left: 10px;
+    line-height: 2;
+    cursor: pointer;
+    color: rgb(230, 134, 25);
+  }
+  
+  .topping:hover, .crust:hover {
+    color: #d4e215
+  }
+  
+  .topping.on-the-pizza::after, .crust.selected-crust::after {
+    content: ' ✔️';
+    margin-left: 5px;
+    width: 20px;
+  }
+  
+  /* BILL */
+  
+  .bill-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .bill-extras {
+    font-size: 30px;
+    margin-left: 400px;
+    border: 10px solid #dd7c0de0;
+    border-radius:20px; 
+    width: 40%;
+    margin-top: -120px;
+    padding: 15px;
+    margin-bottom: 25px;
+    ma
+  }
+  
+  .cheese {
+    margin-left: 40px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .cheese .checkmark {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #FFB97B;
+    transition: .5s ease-in-out;
+  }
+  
+  .cheese .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    transition: .5s;
+  }
+  
+  .cheese input:checked ~ .checkmark:after {
+    display: block;
+    animation: check .3s ease-in forwards;
+  }
+  
+  @keyframes check {
+    from { transform: rotate(15deg) }
+    to { transform: rotate(45deg) }
+  }
+  
+  .cheese .checkmark:after {
+  transition: 5s;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 3px 0;
+    transition: transform .5s ease-in-out;
+  }
+  
+  .bill-extras input {
+    position: center;
+    opacity: 0;
+    width: 20px;
+  }
+  
+  select {
+    background: #dbbc0d;
+    color: rgb(3, 3, 3);
+    font-size: 1rem;
+    font-family: 'Jua'
+  }
+  
+  .bill {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .bill-list {
+    font-size: 1.2rem;
+    list-style: none;
+    border: 10px solid #dd7c0de0;
+    border-radius:20px; 
+    width: 40%;
+    margin-top: 20px;
+    padding: 30px;
+  }
+  
+  .bill-list>li {
+    display: flex;
+    justify-content: space-between;
+    color: #d4e215
+  }
+  
+  .bill-list>li#grand-total {
+    padding-top: 5px;
+    border-top: 2px solid #ccc;
+  }
+  
+  #buy-now {
+    padding: .5rem 1rem;
+    border-radius: 90px;
+    font-size: 2rem;
+    cursor: pointer;
+    background: #0d89db;
+    color: #fff;
+    transition: all .25s ease-in;
+    box-shadow: 0 0 30px #000a;
+    width: 170px;
+    margin-left: 600px;
+  }
+  
+  #buy-now:hover {
+    box-shadow: 0 0 10px #0009;
+    transform: scale(.98)
+  }
+  
+  
+  
+  .text {
+    background: transparent;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 400px;
+  }
+  .shoulder{
+    background-image: url(../images/dark.png);
+  }
+  span{
+    color: #ccc;
+    text-align: center;
+  }
+  .tops{
+    text-align: center;
+    margin-left: 300px;
+    border: 
+  }
+  header{
+    background-image: url(../images/dark.png);
+    color: #eb830d;
+  
+  }
+  .mapp{
+    margin-left: 400px;
+    border-radius: 90px;
+    margin-top: 35px;
+   
+  
+  }
+  .two{
+    font-size: 30px;
+    width: 170px;
+    margin-left: 600px;
+    border-radius: 90px;
+    font-weight: bolder;
+    margin-top:-800px;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: #0d89db;
+    color: #fff;
+    transition: all .25s ease-in;
+    box-shadow: 0 0 30px #000a;
+  
+  }
+  .two:hover {
+    box-shadow: 0 0 10px #0009;
+    transform: scale(.98)
+  }
+  .cheeselabel{
+    margin-left: 400px;
+    border: 10px solid #dd7c0de0;
+    border-radius:20px; 
+    width: 40%;
+    margin-top: -40px;
+    padding: 15px;
+  }
+  
+  .cheeselabel label {
+    color: rgb(226, 183, 11);
+    font-size: 30px;
+    margin-left: 130px;
+    
+  }
+  .checkbox{
+    display: none;
+  }
+  .bill-extras span{
+    color: #d4e215;
+    margin-left: 160px;
+  }
+  .mmm{
+    margin-left:900px;
+    border: 2px solid #dd7c0de0;
+    border-radius:10px; 
+    width: 240px;
+    margin-top: -90px;
+    padding: 3px;
+    background-image: url(../images/dark.png);
+    color: #eb830d;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  
+  /* contact styling*/
+  .conc{
+    background-image: url(../images/);
+    height: 500px;
+    background-size: 100%;
+    text-align: center;
+  }
+  .conc input{
+    color: white;
+    background-color: rgba(240, 255, 252, 0.342);
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  #submit {
+    color:rgba(216, 197, 197, 0.507);
+    width: 200px;
+    margin-top: 15px;
+    font-weight: bolder;
+    background: transparent;
+    
+  }
+  #message{
+    height: 230px;
+    
+  } 
+  .rw3{
+    margin-top: 15px;
+    margin-left: 175px;
+  }
+  .foot {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .foot h3 {
+    font-size: 15px;
+  }
+  .foot h4 {
+    font-size: 10px;
+  }
+  .boil{
+    background-image: url(../images/contact.jpg);
+  }
+  #name
+  {
+    margin-left: 160px;
+    background-color: burlywood;
+  }
+  #email{
+    background-color: burlywood;
+  }
+  #text{
+    background-color: burlywood;
+    color: blueviolet;
+    margin-top: 40px;
+  }
+  .contact-us{
+    color: #eb830d;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .rw3{
+    margin-left: 180px;
+    margin-top: -50px;
+    
+  }
+  /* about us styling*/
+  .abhead{
+    background-image: url(../images/bg_home.jpg);
+    height: 400px;
+    background-size: cover;
+  }
+  
+  .abtinro{
+    width: 800px;
+    height: 400px;
+    margin-left: 300px;
+    padding: 20px;
+  }
+  .abtinro p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(57, 235, 12);
+    border-radius: 15px;
+  }
+  .abtinro h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(57, 235, 12);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  
+  /* hover for chefs*/
+  #deve{
+    display: none;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #des{
+    display: none;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #product {
+    display: none;
+    text-align: center;
+    font-size: 15px;
+  }
+  .whatwedo{
+    background-image: url(../images/about\ chefbg.jpg);
+    text-align: center;
+    color: rgb(57, 235, 12);
+   
+  }
+  .whatwedo p {
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(57, 235, 12);
+    border-radius: 15px;
+  }
+  .whatwedo img{
+    border-style: solid;
+    border-width: 3px;
+    max-width: 30%;
+    height: max-content;
+    color: rgb(57, 235, 12);
+    border-radius: 15px;
+  }
